@@ -22,5 +22,6 @@ https://bbs.kafan.cn/forum.php?mod=viewthread&tid=2223364&fromuid=1275892
 
 https://pan.huang1111.cn/s/byoDUY
 
+如有问题请到https://github.com/ANYLNK/ANYLNK.github.io/issues反馈
 
 （本博客依然在更新、维护、调试中）
