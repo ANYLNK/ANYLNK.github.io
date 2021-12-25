@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<title>ANYLNK.github.io | ANY.LNK的个人博客</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="ANYLNK.github.io" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ANY.LNK的个人博客" />
+<meta property="og:description" content="ANY.LNK的个人博客" />
+<link rel="canonical" href="https://anylnk.github.io/" />
+<meta property="og:url" content="https://anylnk.github.io/" />
+<meta property="og:site_name" content="ANYLNK.github.io" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ANYLNK.github.io" />
+<script type="application/ld+json">
+{"headline":"ANYLNK.github.io","description":"ANY.LNK的个人博客","url":"https://anylnk.github.io/","@type":"WebSite","name":"ANYLNK.github.io","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>ANYLNK.github.io</h1>
+        </a>
+        <h2>ANY.LNK的个人博客</h2>
+
+        <section id="downloads">
+          
+          <a href="https://github.com/ANYLNK/ANYLNK.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p>由于Microsoft方面在我反馈后长期未采取行动，所以我在这里将相关利用方式公开</p>
+        <p>Microsoft于2021年8月更新了他们的反恶意软件平台，其中修复了长期以来的可以使用TrustedInstaller权限关闭Microsoft Defender的问题，这里，我对其进行测试并提供新的绕过这种保护的方法</p>
+
+<p>这里我们先提权获取TrustedInstaller权限</p>
+        <img src = 'https://s3.bmp.ovh/imgs/2021/12/0080485487f447b0.png' />
+        <p>接着尝试终止Microsoft Defender保护</p>
+        <img src = 'https://s3.bmp.ovh/imgs/2021/12/6129ab8205f3d672.png' />
+        <img src = 'https://s3.bmp.ovh/imgs/2021/12/ba9e9e8105ce481f.png' />
+        <img src="https://s4.ax1x.com/2021/12/25/TaCBhd.png" />
+        <img src="https://s4.ax1x.com/2021/12/25/TaCqBT.png" />
+        <img src="https://s4.ax1x.com/2021/12/25/TaejU0.png" />
+        <p>可以看到Microsoft Defender拦截了我们的更改</p>
+        <p>然而，并不是所有的更改它都防御住了</p>
+        <p>如果此时用net net1 sc命令行停止服务的话，会出现以下结果</p>
+        <img src="https://s4.ax1x.com/2021/12/25/TaFqDP.png" />
+        <img src="https://s4.ax1x.com/2021/12/25/TakFbV.png" />
+        <p>其中wdnissvc服务，对应进程NisSrv.exe，被成功结束，而Windefend（MsMpEng.exe）也只是报告威胁，如果在实时保护禁用的情况下，也能够被结束</p>
+        <p>如果使用任务管理器，则可以将两个服务都终止</p>
+        <img src="https://s4.ax1x.com/2021/12/25/TamtG8.png" />
+        <img src="https://s4.ax1x.com/2021/12/25/TamNRS.png" />
+        <p>此时如果有未知的威胁，则Microsoft Defender可以在无提示的情况下被禁用</p>
+         
+        <a href="https://anylnk.github.io/exp-en.html" target="_blank" title="English Version">English Version</a>
+
+<p>https://pan.huang1111.cn/s/byoDUY</p>
+
+      </section>
+    </div>
+  </body>
+</html>
