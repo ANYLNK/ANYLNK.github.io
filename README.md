@@ -2,6 +2,8 @@ Microsoft Defender的卡饭样本区测试
 
 测试对象：卡饭区所有样本容量>=100的样本包
 
+注意：除非经过特殊说明，测试用的Microsoft Defender均使用ConfigureDefender调至最高（MAX）防护级别。测试结果仅代表测试时软件的水平且仅供参考。
+
 末尾附一些测试工具
 
 样本联系上报请转至：
