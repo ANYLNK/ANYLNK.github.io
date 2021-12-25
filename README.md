@@ -4,6 +4,8 @@ Microsoft Defender的卡饭样本区测试
 
 注意：除非经过特殊说明，测试用的Microsoft Defender均使用ConfigureDefender调至最高（MAX）防护级别。测试结果仅代表测试时软件的水平且仅供参考。
 
+第一期测试：https://anylnk.github.io/20211225.html
+
 末尾附一些测试工具
 
 样本联系上报请转至：
