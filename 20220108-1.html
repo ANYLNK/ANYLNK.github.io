@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<title>Microsoft Defender 恶意软件样本测试 | ANY.LNK的个人博客</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="ANYLNK.github.io" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ANY.LNK的个人博客" />
+<meta property="og:description" content="ANY.LNK的个人博客" />
+<link rel="canonical" href="https://anylnk.github.io/" />
+<meta property="og:url" content="https://anylnk.github.io/" />
+<meta property="og:site_name" content="ANYLNK.github.io" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ANYLNK.github.io" />
+<script type="application/ld+json">
+{"headline":"ANYLNK.github.io","description":"ANY.LNK的个人博客","url":"https://anylnk.github.io/","@type":"WebSite","name":"ANYLNK.github.io","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>ANYLNK.github.io</h1>
+        </a>
+        <h2>ANY.LNK的个人博客</h2>
+
+        <section id="downloads">
+          
+          <a href="https://github.com/ANYLNK/ANYLNK.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p>本期测试内容：2022年0104期百包测试——病毒样本100x</p>
+
+<p>2022年0104期百包测试——病毒样本100x
+https://bbs.kafan.cn/forum.php?mod=viewthread&tid=2224741&fromuid=1275892
+(出处: 卡饭)
+</p>
+        <p>样本容量：100X</p>
+        <a href="https://imgtu.com/i/7Cbiut"><img src="https://s4.ax1x.com/2022/01/08/7Cbiut.png" alt="7Cbiut.png" border="0" /></a>
+        <p>测试过程：</p>
+        <p>1.使用Nanazip解压下载下来的样本包，暂停实时保护，用安软真实结果统计工具统计样本</p>
+        <p></p>
+        <p>2.重启实时保护，用命令行扫描（因为UI扫描存在bug）</p>
+        <p></p>
+        <p>3.处理完后，统计结果，打印日志</p>
+        <a href="https://imgtu.com/i/7Cbg8H"><img src="https://s4.ax1x.com/2022/01/08/7Cbg8H.png" alt="7Cbg8H.png" border="0" /></a>
+        <p>4.将剩余文件拖入虚拟机进行双击</p>
+        <a href="https://imgtu.com/i/7CbLxs"><img src="https://s4.ax1x.com/2022/01/08/7CbLxs.png" alt="7CbLxs.png" border="0" /></a>
+        <p>结果：</p>
+        <p>18a7c16665c3812034247d42649868f8ab2f4123b863c1e415c9e90e11fcbf78.exe  -  不确定是否为恶意文件，运行时像个破解，安装过程中有报毒，但还是显示运行成功。</p>
+        <p>364581ba5cea612ce9170c128655bf1d916d3738a85f8a478c5f10093e6cd40d (2).zip  -  存在密码无法进行测试。</p>
+        <p>48951d50abf8359aad5a14d14d4bd4f442ce55f21da1e1f8bd4116be41fa5daf.exe  -  Trojan:Win32/Sabsik.TE.B!ml击杀。</p>
+        <p>a486f4d55404837ea407e0220af6d154c2f662daa5cd676295ddea5e3aee760a.dll  -  Trojan:Win32/Conteban.A!ml击杀。</p>
+        <p>f3d387fa8dacc11880afcfb9a0522c67ac6bd36d07eb018be610e0a3007a7e32.exe  -  Virus:Win32/Aicat.A!ml被清除。</p>
+        <p>测试时总计击杀98个，占全部已知有效样本的98/98，约占100%</p>
+        <p>附张运行后的图</p>
+        <a href="https://imgtu.com/i/7CLYc9"><img src="https://s4.ax1x.com/2022/01/08/7CLYc9.png" alt="7CLYc9.png" border="0" /></a>
+
+<p>末尾附一些测试工具</p>
+
+<p>样本联系上报请转至：
+微软漏报且文件鉴定结果分析错误+长期分析未入库样本上报帖（微软上报样本）
+https://bbs.kafan.cn/forum.php?mod=viewthread&amp;tid=2223364&amp;fromuid=1275892
+(出处: 卡饭)</p>
+
+<p>https://pan.huang1111.cn/s/byoDUY</p>
+
+      </section>
+    </div>
+  </body>
+</html>
