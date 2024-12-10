@@ -1,3 +1,5 @@
-ANY.LNK的个人博客页面
-Github Pages页面
-此页面用于存储Microsoft Defender各项测试的数据和结果
+ANY.LNK's blog
+ANY.LNK的个人博客
+Github Pages
+Storage things about Microsoft Defender, maybe...
+存储Microsoft Defender相关，或许吧……
